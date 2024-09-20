@@ -1,0 +1,168 @@
+.right_bar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 480px;
+  /* background-color: lightblue; */
+}
+
+.search_bar{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 15px;
+  background-color: #EFF3F4;
+  width: 350px;
+  border-radius: 25px;
+  position: fixed;
+  top: 5px;
+}
+
+.search_icon{
+  height: 18px;
+  object-fit: cover;
+  padding: 5px 15px;
+  color: rgb(183, 182, 182);
+}
+
+.search_input{
+  width: 200px;
+  border: none;
+  font-size: 14px;
+  background-color: #EFF3F4;
+  padding-left: 10px;
+  padding: 13px;
+  border-width: 0;
+}
+
+.search_input:focus {
+  outline:none!important;
+}
+
+.premium, .trending_bar{
+  width: 280px;
+  margin: 70px 0 0 15px;
+  line-height: 20px;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 3px 60px 10px 20px;
+}
+
+.premium{
+  border-radius: 15px;
+}
+
+.premium h2{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.premium p{
+  color: #0F1419;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe_btn{
+  border: none;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.trending_bar{
+  margin-top: 20px;
+  /* height: 430px; */
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.news_abstract{
+  display: flex;
+}
+
+.news_abstract img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description h4,
+.description p{
+  margin-left: 10px;
+  font-size: 14px;
+  vertical-align: top;
+  margin: 2px 0 0 10px;
+}
+
+.description p{
+  font-size: 12px;
+  color: gray;
+}
+
+.trending{
+  width: 320px;
+  margin-top: 5px;
+}
+
+.block_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block_header .trend_in{
+  padding: 0;
+  margin: 10px 0 3px 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.dots{
+  font-size: 20px;
+  color: #333434;
+  margin: 0;
+}
+
+.trending h4{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.posts_count{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.show_more{
+ color: #1D9BF0;
+ font-size: 14px;
+ cursor: pointer;
+ background-color: yellowgreen;
+ padding: 15px;
+ /* margin: 0 0 0 15px; */
+ width: 332px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+
+/* .show_more_bar{
+  background-color: yellowgreen;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+} */
